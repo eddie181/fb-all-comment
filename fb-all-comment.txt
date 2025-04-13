@@ -1,1 +1,149 @@
-{"created_by":"Tampermonkey","version":"1","scripts":[{"name":"Facebook - Default to All Comments","options":{"check_for_updates":true,"user_modified":1744540014572,"comment":null,"compatopts_for_requires":true,"compat_wrappedjsobject":false,"compat_metadata":false,"compat_foreach":false,"compat_powerful_this":null,"sandbox":null,"noframes":null,"unwrap":null,"run_at":null,"run_in":null,"tags":[],"override":{"merge_connects":true,"merge_excludes":true,"merge_includes":true,"merge_matches":true,"orig_connects":[],"orig_excludes":[],"orig_includes":[],"orig_matches":["*://*.facebook.com/*"],"orig_noframes":null,"orig_run_at":"document-idle","orig_run_in":[],"orig_tags":[],"use_blockers":[],"use_connects":[],"use_excludes":[],"use_includes":[],"use_matches":[]}},"storage":{"ts":1744537719720,"data":{}},"enabled":true,"position":1,"uuid":"00f15c45-da0e-434c-9b65-655ade4eb567","source":"Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBGYWNlYm9vayAtIERlZmF1bHQgdG8gQWxsIENvbW1lbnRzCi8vIEBuYW1lOnpoLVRXICAgRmFjZWJvb2sgLSDpoJDoqK3poa/npLrmiYDmnInnlZnoqIAKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjUKLy8gQGRlc2NyaXB0aW9uICBBdXRvbWF0aWNhbGx5IGNoYW5nZXMgdGhlIGRlZmF1bHQgY29tbWVudCBzb3J0IG9uIEZhY2Vib29rIGZyb20gIk1vc3QgUmVsZXZhbnQiIHRvICJBbGwgQ29tbWVudHMiLgovLyBAZGVzY3JpcHRpb246emgtVFcg6Ieq5YuV5bCHIEZhY2Vib29rIOiyvOaWh+eVmeiogOaOkuW6j+W+nuOAjOacgOebuOmXnOOAjeWIh+aPm+eCuuOAjOaJgOacieeVmeiogOOAjeOAggovLyBAYXV0aG9yICAgICAgIEVkZGllIEx1IHVzaW5nIEdlbWluaSAyLjUgcHJvCi8vIEBtYXRjaCAgICAgICAgKjovLyouZmFjZWJvb2suY29tLyoKLy8gQGdyYW50ICAgICAgICBub25lCi8vIEBydW4tYXQgICAgICAgZG9jdW1lbnQtaWRsZQovLyBAbGljZW5zZSAgICAgIE1JVAovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgICd1c2Ugc3RyaWN0JzsKCiAgICAvLyAtLS0g6Kit5a6aIC0tLQogICAgY29uc3QgQ0hFQ0tfSU5URVJWQUxfTVMgPSAxNTAwOyAvLyDmr4/pmpTlpJrlsJHmr6vnp5LmqqLmn6XkuIDmrKHpoIHpnaIgKOS+i+WmgiAxLjUg56eSKQogICAgY29uc3QgQ0xJQ0tfREVMQVlfTVMgPSAzMDA7ICAgLy8g6bue5pOK5o6S5bqP5oyJ6YiV5b6M77yM562J5b6F5aSa5bCR5q+r56eS5YaN6bue5pOK6YG46aCFCgogICAgLy8gLS0tIOmcgOimgeWwi+aJvueahOaWh+WtlyAo6ZyA6KaB6IiH5L2g55qEIEZhY2Vib29rIOiqnuiogOS7i+mdouWwjeaHiSkgLS0tCiAgICAvLyDpgJnkupvmmK/luLjopovnmoTmloflrZfvvIzlpoLmnpzkvaDnmoTku4vpnaLkuI3lkIzvvIzlj6/og73pnIDopoHkv67mlLkKICAgIGNvbnN0IG1vc3RSZWxldmFudFRleHRzID0gWyJNb3N0IFJlbGV2YW50IiwgIuacgOebuOmXnCJdOyAvLyDnm67liY3poa/npLrngrrjgIzmnIDnm7jpl5zjgI3mmYLnmoTmloflrZcKICAgIGNvbnN0IGFsbENvbW1lbnRzVGV4dHMgPSBbIkFsbCBDb21tZW50cyIsICLmiYDmnInnlZnoqIAiLCAiTmV3ZXN0IiwgIuacgOaWsCJdOyAvLyDopoHpu57mk4rnmoTpgbjpoIXmloflrZcgKOWMheWQqyAiTmV3ZXN0IiDlm6DngrrmnInmmYIgRkIg5ZCI5L215LqGKQoKICAgIC8vIC0tLSDlsIvmib7mjpLluo/mjInpiJXnmoTnrZbnlaUgLS0tCiAgICAvLyBGYWNlYm9vayDntZDmp4vluLjororvvIzpgJnoo6HntZDlkIjlpJrnqK7mlrnlvI/mj5Dpq5jmiJDlip/njocKICAgIC8vIDEuIOmAj+mBjiBhcmlhLWxhYmVsICjnhKHpmpznpJnmqJnnsaQpCiAgICAvLyAyLiDpgI/pgY7mjInpiJXlhafnmoTmloflrZflhaflrrkKLy8gLS0tIOWwi+aJvuaOkuW6j+aMiemIleeahOetlueVpSAo5pu05pawKSAtLS0KICAgIC8vIOWEquWFiOWwi+aJviByb2xlPSJidXR0b24iIOeahCBkaXbvvIzlho3mqqLmn6XmloflrZcKICAgIC8vIGFyaWEtbGFiZWwg5L2c54K65YKZ55So562W55WlCiAgICBjb25zdCBzb3J0QnV0dG9uU2VsZWN0b3JzID0gWwogICAgICAgICdkaXZbcm9sZT0iYnV0dG9uIl0nLCAvLyAqKiog5Li76KaB55uu5qiZ77ya5bCL5om+5omA5pyJIHJvbGU9ImJ1dHRvbiIg55qEIGRpdiAqKioKICAgICAgICAnc3Bhbltyb2xlPSJidXR0b24iXScsIC8vIOS5n+iAg+aFriBzcGFuIOaMiemIleeahOWPr+iDveaApwogICAgICAgIC8vIOS/neeVmSBhcmlhLWxhYmVsIOS9nOeCuuWFtuS7liBGQiDniYjmnKznmoTlgpnnlKjmlrnmoYgKICAgICAgICAnZGl2W3JvbGU9ImJ1dHRvbiJdW2FyaWEtbGFiZWwqPSJTb3J0IGNvbW1lbnRzIGJ5Il0nLAogICAgICAgICdkaXZbcm9sZT0iYnV0dG9uIl1bYXJpYS1sYWJlbCo9IueVmeiogOaOkuW6j+S+neaTmiJdJywKICAgICAgICAnZGl2W3JvbGU9ImJ1dHRvbiJdW2FyaWEtbGFiZWwqPSJDb21tZW50IHNvcnQgb3JkZXIiXScsCiAgICBdOwoKICAgIC8vIC0tLSDovJTliqnlh73mlbjvvJrmqKHmk6znnJ/lr6bpu57mk4ogLS0tCiAgICBmdW5jdGlvbiBzaW11bGF0ZUNsaWNrKGVsZW1lbnQpIHsKICAgICAgICBjb25zdCBtb3VzZUV2ZW50SW5pdCA9IHsgYnViYmxlczogdHJ1ZSwgY2FuY2VsYWJsZTogdHJ1ZSwgdmlldzogd2luZG93IH07CiAgICAgICAgY29uc3QgbW91c2VEb3duRXZlbnQgPSBuZXcgTW91c2VFdmVudCgnbW91c2Vkb3duJywgbW91c2VFdmVudEluaXQpOwogICAgICAgIGNvbnN0IG1vdXNlVXBFdmVudCA9IG5ldyBNb3VzZUV2ZW50KCdtb3VzZXVwJywgbW91c2VFdmVudEluaXQpOwogICAgICAgIGNvbnN0IGNsaWNrRXZlbnQgPSBuZXcgTW91c2VFdmVudCgnY2xpY2snLCBtb3VzZUV2ZW50SW5pdCk7CiAgICAgICAgZWxlbWVudC5kaXNwYXRjaEV2ZW50KG1vdXNlRG93bkV2ZW50KTsKICAgICAgICBlbGVtZW50LmRpc3BhdGNoRXZlbnQobW91c2VVcEV2ZW50KTsKICAgICAgICBlbGVtZW50LmRpc3BhdGNoRXZlbnQoY2xpY2tFdmVudCk7CiAgICB9CgogICAgLy8gLS0tIOS4u+imgeWft+ihjOWHveaVuCAtLS0KICAgIGZ1bmN0aW9uIGZpbmRBbmRTd2l0Y2hDb21tZW50cygpIHsKICAgICAgICAvLyDlsIvmib7miYDmnInlj6/og73nmoTmjpLluo/op7jnmbzmjInpiJUKICAgICAgICBsZXQgcG90ZW50aWFsVHJpZ2dlcnMgPSBbXTsKICAgICAgICBzb3J0QnV0dG9uU2VsZWN0b3JzLmZvckVhY2goc2VsZWN0b3IgPT4gewogICAgICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKHNlbGVjdG9yKS5mb3JFYWNoKGVsID0+IHsKICAgICAgICAgICAgICAgIC8vIOWmguaenOaYryBzcGFu77yM5ZiX6Kmm5om+5Yiw5a6D5aSW5bGk5Y+v6bue5pOK55qEIGJ1dHRvbgogICAgICAgICAgICAgICAgbGV0IGNsaWNrYWJsZUVsZW1lbnQgPSBlbC5jbG9zZXN0KCdkaXZbcm9sZT0iYnV0dG9uIl0sIHNwYW5bcm9sZT0iYnV0dG9uIl0nKTsKICAgICAgICAgICAgICAgIGlmICghY2xpY2thYmxlRWxlbWVudCAmJiBlbC50YWdOYW1lID09PSAnU1BBTicpIHsKICAgICAgICAgICAgICAgICAgIC8vIOWmguaenCBzcGFuIOacrOi6q+S4jeaYr+aMiemIle+8jOaqouafpeWug+eahOWFp+WuueaYr+WQpuespuWQiAogICAgICAgICAgICAgICAgICAgY29uc3QgY3VycmVudFRleHQgPSBlbC50ZXh0Q29udGVudD8udHJpbSgpOwogICAgICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRUZXh0ICYmIG1vc3RSZWxldmFudFRleHRzLnNvbWUodGV4dCA9PiBjdXJyZW50VGV4dC5pbmNsdWRlcyh0ZXh0KSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAvLyDlkJHkuIrmn6Xmib7lj6/pu57mk4rnmoTniLblhYPntKAKICAgICAgICAgICAgICAgICAgICAgICBjbGlja2FibGVFbGVtZW50ID0gZWwuY2xvc2VzdCgnZGl2W3JvbGU9ImJ1dHRvbiJdLCBzcGFuW3JvbGU9ImJ1dHRvbiJdLCBkaXZbdGFiaW5kZXg9IjAiXScpOyAvLyDmk7TlpKfnr4TlnI0KICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoZWwudGFnTmFtZSA9PT0gJ0RJVicgJiYgZWwuZ2V0QXR0cmlidXRlKCdyb2xlJykgPT09ICdidXR0b24nKSB7CiAgICAgICAgICAgICAgICAgICAvLyDlpoLmnpzmnKzouqvlsLHmmK8gYnV0dG9uIGRpdgogICAgICAgICAgICAgICAgICAgY2xpY2thYmxlRWxlbWVudCA9IGVsOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmIChjbGlja2FibGVFbGVtZW50ICYmICFwb3RlbnRpYWxUcmlnZ2Vycy5pbmNsdWRlcyhjbGlja2FibGVFbGVtZW50KSkgewogICAgICAgICAgICAgICAgICAgIHBvdGVudGlhbFRyaWdnZXJzLnB1c2goY2xpY2thYmxlRWxlbWVudCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwoKICAgICAgICBwb3RlbnRpYWxUcmlnZ2Vycy5mb3JFYWNoKHRyaWdnZXIgPT4gewogICAgICAgICAgICAvLyDmqqLmn6XmjInpiJXnm67liY3nmoTmloflrZfmmK/lkKbngrogIuacgOebuOmXnCIKICAgICAgICAgICAgY29uc3QgY3VycmVudEJ1dHRvblRleHQgPSB0cmlnZ2VyLnRleHRDb250ZW50Py50cmltKCk7CiAgICAgICAgICAgIGNvbnN0IG5lZWRzU3dpdGNoID0gY3VycmVudEJ1dHRvblRleHQgJiYgbW9zdFJlbGV2YW50VGV4dHMuc29tZSh0ZXh0ID0+IGN1cnJlbnRCdXR0b25UZXh0LmluY2x1ZGVzKHRleHQpKTsKCiAgICAgICAgICAgIC8vIOWKoOS4iuS4gOWAi+aomeiomOmBv+WFjemHjeikh+iZleeQhuWQjOS4gOWAi+aMiemIlSAo6Ziy5q2i5b+r6YCf6YCj6bueKQogICAgICAgICAgICBpZiAobmVlZHNTd2l0Y2ggJiYgIXRyaWdnZXIuZGF0YXNldC5zd2l0Y2hJblByb2dyZXNzKSB7CiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygi55m854++ICfmnIDnm7jpl5wnIOaOkuW6j+aMiemIlToiLCB0cmlnZ2VyLCAi5rqW5YKZ5YiH5o+bLi4uIik7CiAgICAgICAgICAgICAgICB0cmlnZ2VyLmRhdGFzZXQuc3dpdGNoSW5Qcm9ncmVzcyA9ICd0cnVlJzsgLy8g5qiZ6KiY6JmV55CG5LitCgogICAgICAgICAgICAgICAgLy8g5qih5pOs6bue5pOK5o6S5bqP5oyJ6YiV5Lul5omT6ZaL6YG45ZauCiAgICAgICAgICAgICAgICBzaW11bGF0ZUNsaWNrKHRyaWdnZXIpOwoKICAgICAgICAgICAgICAgIC8vIOetieW+hemBuOWWruW9iOWHugogICAgICAgICAgICAgICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgLy8g5bCL5om+44CM5omA5pyJ55WZ6KiA44CN5oiW44CM5pyA5paw44CN6YG46aCFCiAgICAgICAgICAgICAgICAgICAgbGV0IGFsbENvbW1lbnRzT3B0aW9uID0gbnVsbDsKICAgICAgICAgICAgICAgICAgICAvLyDpgbjllq7pgJrluLjlnKggYm9keSDkuIvvvIzmiYDku6XlhajlsYDmkJzntKIKICAgICAgICAgICAgICAgICAgICBjb25zdCBtZW51SXRlbXMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdkaXZbcm9sZT0ibWVudWl0ZW1yYWRpbyJdLCBkaXZbcm9sZT0ibWVudWl0ZW0iXSwgZGl2W3JvbGU9Im9wdGlvbiJdJyk7IC8vIOWMheWQq+WPr+iDveeahOinkuiJsgoKICAgICAgICAgICAgICAgICAgICBtZW51SXRlbXMuZm9yRWFjaChpdGVtID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgaXRlbVRleHQgPSBpdGVtLnRleHRDb250ZW50Py50cmltKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpdGVtVGV4dCAmJiBhbGxDb21tZW50c1RleHRzLnNvbWUodGV4dCA9PiBpdGVtVGV4dC5pbmNsdWRlcyh0ZXh0KSkpIHsgLy8gPC0tLSDkv67mlLnpgJnoo6HvvIzlvp4gPT09IOaUueaIkCBpbmNsdWRlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g56K65L+d6YG46aCF5piv5Y+v6KaL55qEICjkuIDlgIvln7rmnKznmoTmqqLmn6UpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGl0ZW0ub2Zmc2V0UGFyZW50ICE9PSBudWxsIHx8IGl0ZW0uY2xvc2VzdCgnW3JvbGU9ImRpYWxvZyJdLCBbcm9sZT0ibWVudSJdJykpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxDb21tZW50c09wdGlvbiA9IGl0ZW07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuOyAvLyDmib7liLDlsLHlgZzmraIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9KTsKCiAgICAgICAgICAgICAgICAgICAgaWYgKGFsbENvbW1lbnRzT3B0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCLmib7liLAgJ+aJgOacieeVmeiogC/mnIDmlrAnIOmBuOmghToiLCBhbGxDb21tZW50c09wdGlvbiwgIum7nuaTiuS4rS4uLiIpOwogICAgICAgICAgICAgICAgICAgICAgICAvLyDmqKHmk6zpu57mk4rjgIzmiYDmnInnlZnoqIDjgI3pgbjpoIUKICAgICAgICAgICAgICAgICAgICAgICAgc2ltdWxhdGVDbGljayhhbGxDb21tZW50c09wdGlvbik7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCLlt7LliIfmj5vngrogJ+aJgOacieeVmeiogC/mnIDmlrAnLiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgLy8g5oiQ5Yqf5YiH5o+b5b6M77yM6YGO5LiA5q615pmC6ZaT5YaN56e76Zmk5qiZ6KiY77yM5YWB6Kix5a6D5Zyo6ZyA6KaB5pmC5YaN5qyh6KKr5qqi5p+lCiAgICAgICAgICAgICAgICAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVsZXRlIHRyaWdnZXIuZGF0YXNldC5zd2l0Y2hJblByb2dyZXNzOwogICAgICAgICAgICAgICAgICAgICAgICAgfSwgMTAwMCk7IC8vIOetieW+hSAxIOenkuW+jOenu+mZpOaomeiomAogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCLpjK/oqqTvvJrpu57mk4rkuobmjpLluo/mjInpiJXvvIzkvYbmib7kuI3liLAgJ+aJgOacieeVmeiogC/mnIDmlrAnIOmBuOmgheOAguWPr+iDveaYryBGYWNlYm9vayDku4vpnaLororli5XjgIIiKTsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5om+5LiN5Yiw6YG46aCF77yM5Lmf6KaB56e76Zmk5qiZ6KiY77yM5YWB6Kix5LiL5qyh6YeN6KmmCiAgICAgICAgICAgICAgICAgICAgICAgIGRlbGV0ZSB0cmlnZ2VyLmRhdGFzZXQuc3dpdGNoSW5Qcm9ncmVzczsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LCBDTElDS19ERUxBWV9NUyk7CiAgICAgICAgICAgIH0gZWxzZSBpZiAodHJpZ2dlci5kYXRhc2V0LnN3aXRjaEluUHJvZ3Jlc3MgJiYgIW5lZWRzU3dpdGNoKSB7CiAgICAgICAgICAgICAgICAvLyDlpoLmnpzmqJnoqJjpgoTlnKjvvIzkvYbmloflrZflt7LntpPkuI3mmK8gIuacgOebuOmXnCLvvIzooajnpLrlj6/og73lt7LliIfmj5vmiJDlip/miJbooqvnlKjmiLbmiYvli5XliIfmj5sKICAgICAgICAgICAgICAgIGRlbGV0ZSB0cmlnZ2VyLmRhdGFzZXQuc3dpdGNoSW5Qcm9ncmVzczsKICAgICAgICAgICAgfQogICAgICAgIH0pOwogICAgfQoKICAgIC8vIC0tLSDlrprmnJ/ln7fooYzmqqLmn6UgLS0tCiAgICBjb25zb2xlLmxvZygiRmFjZWJvb2sgW+mgkOioremhr+ekuuaJgOacieeVmeiogF0g6IWz5pys5bey5ZWf5YuV44CCIik7CiAgICAvLyDkvb/nlKggTXV0YXRpb25PYnNlcnZlciDnm6Pogb0gRE9NIOiuiuWMlu+8jOavlCBzZXRJbnRlcnZhbCDmm7TmnInmlYjnjocKICAgIGNvbnN0IG9ic2VydmVyID0gbmV3IE11dGF0aW9uT2JzZXJ2ZXIoKG11dGF0aW9uc0xpc3QsIG9ic2VydmVyKSA9PiB7CiAgICAgICAgLy8g5LiN55So5qqi5p+l5YW36auU55qEIG11dGF0aW9u77yM5Y+q6KaB5pyJ6K6K5YyW5bCx5ZiX6Kmm5Z+36KGM5LiA5qyhCiAgICAgICAgZmluZEFuZFN3aXRjaENvbW1lbnRzKCk7CiAgICB9KTsKCiAgICAvLyDoqK3lrprop4Dlr5/nm67mqJnngrrmlbTlgIsgYm9kee+8jOebo+iBveWtkOevgOm7nuWSjOWtkOaoueeahOiuiuWMlgogICAgb2JzZXJ2ZXIub2JzZXJ2ZShkb2N1bWVudC5ib2R5LCB7IGNoaWxkTGlzdDogdHJ1ZSwgc3VidHJlZTogdHJ1ZSB9KTsKCiAgICAvLyDkuZ/lj6/ku6Xkv53nlZnkuIDlgIvlrprmmYLlmajkvZzngrrlgpnnlKjvvIzku6XpmLIgTXV0YXRpb25PYnNlcnZlciDpgbrmvI/mn5Dkupvmg4Xms4EgKOS+i+Wmgumggemdoua7vuWLleWKoOi8iSkKICAgIHNldEludGVydmFsKGZpbmRBbmRTd2l0Y2hDb21tZW50cywgQ0hFQ0tfSU5URVJWQUxfTVMgKiAyKTsgLy8g5a6a5pmC5Zmo55qE6aC7546H5Y+v5Lul6Kit5L2O5LiA5LqbCgogICAgLy8g6aCB6Z2i5Ymb6LyJ5YWl5a6M5oiQ5pmC5Lmf5Z+36KGM5LiA5qyhCiAgICBzZXRUaW1lb3V0KGZpbmRBbmRTd2l0Y2hDb21tZW50cywgMTAwMCk7Cgp9KSgpOw=="},{"name":"Facebook Console Test","options":{"check_for_updates":true,"comment":null,"compat_foreach":false,"compat_metadata":false,"compat_powerful_this":null,"compat_wrappedjsobject":false,"compatopts_for_requires":true,"noframes":null,"override":{"merge_connects":true,"merge_excludes":true,"merge_includes":true,"merge_matches":true,"orig_connects":[],"orig_excludes":[],"orig_includes":[],"orig_matches":["*://*.facebook.com/*"],"orig_noframes":null,"orig_run_at":"document-star// 嘗試儘早執行","orig_run_in":[],"orig_tags":[],"use_blockers":[],"use_connects":[],"use_excludes":[],"use_includes":[],"use_matches":[]},"run_at":null,"run_in":null,"sandbox":null,"tags":[],"unwrap":null,"user_modified":null},"storage":{"ts":1744539651434,"data":{}},"enabled":false,"position":2,"uuid":"56d12a16-539b-488b-91b6-0f26f8aba3fc","source":"Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBGYWNlYm9vayBDb25zb2xlIFRlc3QKLy8gQG5hbWVzcGFjZSAgICBodHRwOi8vdGFtcGVybW9ua2V5Lm5ldC8KLy8gQHZlcnNpb24gICAgICAwLjEKLy8gQGRlc2NyaXB0aW9uICBUZXN0IGlmIFRhbXBlcm1vbmtleSBzY3JpcHRzIHJ1biBvbiBGYWNlYm9vawovLyBAbWF0Y2ggICAgICAgICo6Ly8qLmZhY2Vib29rLmNvbS8qCi8vIEBncmFudCAgICAgICAgbm9uZQovLyBAcnVuLWF0ICAgICAgIGRvY3VtZW50LXN0YXJ0IC8vIOWYl+ippuWEmOaXqeWft+ihjAovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgICd1c2Ugc3RyaWN0JzsKICAgIGNvbnNvbGUubG9nKCItLS0gVGFtcGVybW9ua2V5IEZhY2Vib29rIFRlc3QgU2NyaXB0IEV4ZWN1dGVkISAtLS0iKTsKICAgIGFsZXJ0KCJUYW1wZXJtb25rZXkgRmFjZWJvb2sgVGVzdCBTY3JpcHQgRXhlY3V0ZWQhIik7IC8vIOWinuWKoOS4gOWAi+W9iOeql+eiuuS/neiDveeci+WIsAp9KSgpOw=="}]}
+// ==UserScript==
+// @name         Facebook - Default to All Comments
+// @name:zh-TW   Facebook - 預設顯示所有留言
+// @namespace    http://tampermonkey.net/
+// @version      0.5
+// @description  Automatically changes the default comment sort on Facebook from "Most Relevant" to "All Comments".
+// @description:zh-TW 自動將 Facebook 貼文留言排序從「最相關」切換為「所有留言」。
+// @author       Eddie Lu using Gemini 2.5 pro
+// @match        *://*.facebook.com/*
+// @grant        none
+// @run-at       document-idle
+// @license      MIT
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // --- 設定 ---
+    const CHECK_INTERVAL_MS = 1500; // 每隔多少毫秒檢查一次頁面 (例如 1.5 秒)
+    const CLICK_DELAY_MS = 300;   // 點擊排序按鈕後，等待多少毫秒再點擊選項
+
+    // --- 需要尋找的文字 (需要與你的 Facebook 語言介面對應) ---
+    // 這些是常見的文字，如果你的介面不同，可能需要修改
+    const mostRelevantTexts = ["Most Relevant", "最相關"]; // 目前顯示為「最相關」時的文字
+    const allCommentsTexts = ["All Comments", "所有留言", "Newest", "最新"]; // 要點擊的選項文字 (包含 "Newest" 因為有時 FB 合併了)
+
+    // --- 尋找排序按鈕的策略 ---
+    // Facebook 結構常變，這裡結合多種方式提高成功率
+    // 1. 透過 aria-label (無障礙標籤)
+    // 2. 透過按鈕內的文字內容
+// --- 尋找排序按鈕的策略 (更新) ---
+    // 優先尋找 role="button" 的 div，再檢查文字
+    // aria-label 作為備用策略
+    const sortButtonSelectors = [
+        'div[role="button"]', // *** 主要目標：尋找所有 role="button" 的 div ***
+        'span[role="button"]', // 也考慮 span 按鈕的可能性
+        // 保留 aria-label 作為其他 FB 版本的備用方案
+        'div[role="button"][aria-label*="Sort comments by"]',
+        'div[role="button"][aria-label*="留言排序依據"]',
+        'div[role="button"][aria-label*="Comment sort order"]',
+    ];
+
+    // --- 輔助函數：模擬真實點擊 ---
+    function simulateClick(element) {
+        const mouseEventInit = { bubbles: true, cancelable: true, view: window };
+        const mouseDownEvent = new MouseEvent('mousedown', mouseEventInit);
+        const mouseUpEvent = new MouseEvent('mouseup', mouseEventInit);
+        const clickEvent = new MouseEvent('click', mouseEventInit);
+        element.dispatchEvent(mouseDownEvent);
+        element.dispatchEvent(mouseUpEvent);
+        element.dispatchEvent(clickEvent);
+    }
+
+    // --- 主要執行函數 ---
+    function findAndSwitchComments() {
+        // 尋找所有可能的排序觸發按鈕
+        let potentialTriggers = [];
+        sortButtonSelectors.forEach(selector => {
+            document.querySelectorAll(selector).forEach(el => {
+                // 如果是 span，嘗試找到它外層可點擊的 button
+                let clickableElement = el.closest('div[role="button"], span[role="button"]');
+                if (!clickableElement && el.tagName === 'SPAN') {
+                   // 如果 span 本身不是按鈕，檢查它的內容是否符合
+                   const currentText = el.textContent?.trim();
+                   if (currentText && mostRelevantTexts.some(text => currentText.includes(text))) {
+                       // 向上查找可點擊的父元素
+                       clickableElement = el.closest('div[role="button"], span[role="button"], div[tabindex="0"]'); // 擴大範圍
+                   }
+                } else if (el.tagName === 'DIV' && el.getAttribute('role') === 'button') {
+                   // 如果本身就是 button div
+                   clickableElement = el;
+                }
+
+                if (clickableElement && !potentialTriggers.includes(clickableElement)) {
+                    potentialTriggers.push(clickableElement);
+                }
+            });
+        });
+
+        potentialTriggers.forEach(trigger => {
+            // 檢查按鈕目前的文字是否為 "最相關"
+            const currentButtonText = trigger.textContent?.trim();
+            const needsSwitch = currentButtonText && mostRelevantTexts.some(text => currentButtonText.includes(text));
+
+            // 加上一個標記避免重複處理同一個按鈕 (防止快速連點)
+            if (needsSwitch && !trigger.dataset.switchInProgress) {
+                console.log("發現 '最相關' 排序按鈕:", trigger, "準備切換...");
+                trigger.dataset.switchInProgress = 'true'; // 標記處理中
+
+                // 模擬點擊排序按鈕以打開選單
+                simulateClick(trigger);
+
+                // 等待選單彈出
+                setTimeout(() => {
+                    // 尋找「所有留言」或「最新」選項
+                    let allCommentsOption = null;
+                    // 選單通常在 body 下，所以全局搜索
+                    const menuItems = document.querySelectorAll('div[role="menuitemradio"], div[role="menuitem"], div[role="option"]'); // 包含可能的角色
+
+                    menuItems.forEach(item => {
+                        const itemText = item.textContent?.trim();
+                        if (itemText && allCommentsTexts.some(text => itemText.includes(text))) { // <--- 修改這裡，從 === 改成 includes                             // 確保選項是可見的 (一個基本的檢查)
+                             if (item.offsetParent !== null || item.closest('[role="dialog"], [role="menu"]')) {
+                                allCommentsOption = item;
+                                return; // 找到就停止
+                             }
+                        }
+                    });
+
+                    if (allCommentsOption) {
+                        console.log("找到 '所有留言/最新' 選項:", allCommentsOption, "點擊中...");
+                        // 模擬點擊「所有留言」選項
+                        simulateClick(allCommentsOption);
+                        console.log("已切換為 '所有留言/最新'.");
+                         // 成功切換後，過一段時間再移除標記，允許它在需要時再次被檢查
+                         setTimeout(() => {
+                              delete trigger.dataset.switchInProgress;
+                         }, 1000); // 等待 1 秒後移除標記
+                    } else {
+                        console.log("錯誤：點擊了排序按鈕，但找不到 '所有留言/最新' 選項。可能是 Facebook 介面變動。");
+                        // 如果找不到選項，也要移除標記，允許下次重試
+                        delete trigger.dataset.switchInProgress;
+                    }
+                }, CLICK_DELAY_MS);
+            } else if (trigger.dataset.switchInProgress && !needsSwitch) {
+                // 如果標記還在，但文字已經不是 "最相關"，表示可能已切換成功或被用戶手動切換
+                delete trigger.dataset.switchInProgress;
+            }
+        });
+    }
+
+    // --- 定期執行檢查 ---
+    console.log("Facebook [預設顯示所有留言] 腳本已啟動。");
+    // 使用 MutationObserver 監聽 DOM 變化，比 setInterval 更有效率
+    const observer = new MutationObserver((mutationsList, observer) => {
+        // 不用檢查具體的 mutation，只要有變化就嘗試執行一次
+        findAndSwitchComments();
+    });
+
+    // 設定觀察目標為整個 body，監聽子節點和子樹的變化
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    // 也可以保留一個定時器作為備用，以防 MutationObserver 遺漏某些情況 (例如頁面滾動加載)
+    setInterval(findAndSwitchComments, CHECK_INTERVAL_MS * 2); // 定時器的頻率可以設低一些
+
+    // 頁面剛載入完成時也執行一次
+    setTimeout(findAndSwitchComments, 1000);
+
+})();
